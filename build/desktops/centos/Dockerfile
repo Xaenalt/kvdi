@@ -1,4 +1,4 @@
-FROM centos:latest as base-system
+FROM centos:stream as base-system
 
 RUN curl -o /etc/yum.repos.d/winswitch.repo https://winswitch.org/downloads/CentOS/winswitch.repo
 
